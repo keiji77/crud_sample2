@@ -32,6 +32,7 @@ class UsersController < ApplicationController
     end
 
 
+    
     private
         #userに紐づいたnameとage以外のデータは受け付けないようにするメソッド
         def user_params
